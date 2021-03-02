@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Capstone Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('grey.jpg');
+
+        }
+        .column{
+            float: left;
+            padding: 10px;
+        }
+        .column.side{
+            width: 25%
+        }
+        canvas{
+            box-shadow: black 20px 10px 50px;
+        }
+        h1{
+            border-style: double;
+        }
+    </style>
+</head>
+<body>
+    <div class= "column side">
+        <p>(\/) (°,,°) (\/)</p>
+    </div>
+    <button onclick="myFunction()"> Rules </button>
+    <h1>Snake Game</h1>
+    <canvas id="game" width="400" height="400"/>
+    <script src ='index.js'> </script>
+</body>
+</html>
